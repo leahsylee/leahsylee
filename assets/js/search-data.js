@@ -37,7 +37,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resume/";
           },
-        },{id: "news-arachnobot-won-1st-place-and-distinguished-robotics-at-asme-engineering-open-house-competing-against-200-exhibits",
+        },{id: "news-joined-the-robotouch-lab-working-on-spherical-tactile-sensor-under-prof-wenzhen-yuan",
+          title: 'Joined the RoboTouch Lab, working on Spherical Tactile Sensor under Prof. Wenzhen Yuan....',
+          description: "",
+          section: "News",},{id: "news-arachnobot-won-1st-place-and-distinguished-robotics-at-asme-engineering-open-house-competing-against-200-exhibits",
           title: 'ArachnoBot won 1st Place and Distinguished Robotics at ASME Engineering Open House, competing...',
           description: "",
           section: "News",},{id: "news-joined-the-novel-mobile-robots-lab-working-on-self-actuated-climbing-robot-controls-under-prof-justin-yim",
