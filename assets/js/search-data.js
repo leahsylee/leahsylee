@@ -7,35 +7,35 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/leahsylee/";
+      window.location.href = "/";
     },
   },{id: "nav-projects",
           title: "projects",
           description: "Hands-on engineering work — from composite vehicle structures to accessible device design.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/leahsylee/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-research",
           title: "research",
           description: "Robotics and sensor research at the RoboTouch Lab, UIUC.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/leahsylee/research/";
+            window.location.href = "/research/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "Conference papers and patents.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/leahsylee/publications/";
+            window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-resume",
+          title: "resume",
           description: "Education, experience, and skills.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/leahsylee/cv/";
+            window.location.href = "/resume/";
           },
         },{id: "news-arachnobot-won-1st-place-and-distinguished-robotics-at-asme-engineering-open-house-competing-against-200-exhibits",
           title: 'ArachnoBot won 1st Place and Distinguished Robotics at ASME Engineering Open House, competing...',
@@ -50,33 +50,33 @@ ninja.data = [{
           title: 'Assistive Technology Devices',
           description: "Designed and prototyped single-hand-operable assistive devices under strict accessibility, safety, and manufacturing constraints.",
           section: "Projects",handler: () => {
-              window.location.href = "/leahsylee/projects/assistive_tech/";
+              window.location.href = "/projects/assistive_tech/";
             },},{id: "projects-self-actuated-climbing-amp-inspection-robot",
           title: 'Self-Actuated Climbing &amp;amp; Inspection Robot',
           description: "Designed contact mechanism and implemented closed-loop control for a surface inspection robot that tracks flat, curved, and inverted surfaces.",
           section: "Projects",handler: () => {
-              window.location.href = "/leahsylee/projects/climbing_robot/";
+              window.location.href = "/projects/climbing_robot/";
             },},{id: "projects-spherical-gelsight-tactile-sensor",
           title: 'Spherical GelSight Tactile Sensor',
           description: "Developed a vision-based tactile sensor for large-area robotic surface scanning, with custom PCB, multi-part molds, and photometric stereo reconstruction. IROS paper submitted.",
           section: "Projects",handler: () => {
-              window.location.href = "/leahsylee/projects/gelsight_sensor/";
+              window.location.href = "/projects/gelsight_sensor/";
             },},{id: "projects-illini-solar-car-composite-structures-amp-vehicle-integration",
           title: 'Illini Solar Car: Composite Structures &amp;amp; Vehicle Integration',
           description: "Lead design and fabrication of composite fairing components for a formula-style solar race car, from 3D-printed tooling through final assembly.",
           section: "Projects",handler: () => {
-              window.location.href = "/leahsylee/projects/solar_car/";
+              window.location.href = "/projects/solar_car/";
             },},{id: "projects-arachnobot-terrain-adaptive-robot",
           title: 'ArachnoBot — Terrain-Adaptive Robot',
           description: "Built a terrain-adaptive robot with 4-bar linkage legs. 1st Place and Distinguished Robotics award at ASME Engineering Open House (200+ exhibits).",
           section: "Projects",handler: () => {
-              window.location.href = "/leahsylee/projects/spider_robot/";
+              window.location.href = "/projects/spider_robot/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/leahsylee/assets/pdf/resume.pdf", "_blank");
+          window.open("/assets/pdf/LeahLee_Resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
