@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-08-15 12:00:00-0600
+date: 2025-08-24 12:00:00-0600
 inline: true
 related_posts: false
 ---
 
-Joined the Novel Mobile Robots Lab, working on self-actuated climbing robot controls under Prof. Justin Yim.
+Joined the **Novel Mobile Robots Lab**, working on self-actuated climbing robot controls under Prof. Justin Yim.

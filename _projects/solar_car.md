@@ -7,17 +7,7 @@ importance: 1
 category: engineering
 ---
 
-<!-- TODO: Add a hero image of the solar car or your composite work -->
-<!-- Example:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/solar_car_hero.jpg" title="Illini Solar Car" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    TODO: Caption describing the car or your specific work area.
-</div>
--->
+{% comment %} TODO: Add hero image — assets/img/solar_car_hero.jpg {% endcomment %}
 
 ## Overview
 
@@ -35,23 +25,7 @@ I lead the design and fabrication of fairing door molds using 3D-printed tooling
 
 **Integration and assembly.** Getting composite panels to mount correctly onto the vehicle chassis is where most of the real problem-solving happens. I coordinate with aero, structures, and melec (mechanical-electrical) teams to ensure proper fit and integration of structural components.
 
-<!-- TODO: Add process photos showing your composite work -->
-<!-- Example:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/solar_car_mold.jpg" title="3D-printed mold tooling" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/solar_car_layup.jpg" title="Composite layup" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/solar_car_assembly.jpg" title="Vehicle assembly" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: 3D-printed mold tooling. Center: Carbon fiber layup with vacuum bagging. Right: Panel mounted on the vehicle frame.
-</div>
--->
+{% comment %} TODO: Add process photos (mold tooling, layup, assembly) {% endcomment %}
 
 ## Why This Matters
 

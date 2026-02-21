@@ -7,17 +7,7 @@ importance: 1
 category: research
 ---
 
-<!-- TODO: Add a photo of the climbing robot on a surface -->
-<!-- Example:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/climbing_robot_hero.jpg" title="Climbing robot on curved surface" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The climbing robot maintaining contact on a curved surface during testing.
-</div>
--->
+{% comment %} TODO: Add a hero image — assets/img/climbing_robot_hero.jpg {% endcomment %}
 
 ## Overview
 
@@ -37,24 +27,17 @@ Early testing revealed inconsistent behavior: the robot would lose contact unpre
 
 **Closed-loop contact control.** I developed a closed-loop contact module using force and pressure sensor feedback to regulate contact force in real time. The robot uses vision-based tactile sensing for surface inspection while the control loop maintains stable adhesion.
 
-<!-- TODO: Add images of the testing setup, CAD models, or sensor data plots -->
-<!-- Example:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/climbing_test_rig.jpg" title="Testing rig" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/climbing_cad.jpg" title="CAD model" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: Testing rig for evaluating contact behavior on different surface geometries. Right: CAD model of the contact mechanism.
-</div>
--->
+{% comment %} TODO: Add images of testing setup and CAD models {% endcomment %}
 
 ## Results
 
 After iterating on both the mechanism geometry and the control parameters, the robot achieved repeatable surface tracking across flat, curved, and inverted surfaces. The key insight was that the mechanical and control systems couldn't be designed independently — the compliance of the contact mechanism determines the dynamics the controller has to handle, and vice versa.
+
+## Progress Report
+
+For more detail on the mechanism design, control architecture, and test results, see the full progress report:
+
+<a href="{{ '/assets/pdf/ClimbingBot_ProgressReport.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Climbing Bot Progress Report (PDF)</a>
 
 ## Relevance
 

@@ -7,23 +7,7 @@ importance: 2
 category: engineering
 ---
 
-<!-- TODO: Add a photo of one or more of your assistive devices -->
-<!-- Example:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assistive_slicer.jpg" title="Vegetable slicer" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assistive_bag_closer.jpg" title="Ziplock bag closer" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assistive_ipad_holder.jpg" title="iPad holder" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Three assistive devices designed for single-hand operation. Left: Vegetable slicer. Center: Ziplock bag closer. Right: iPad holder.
-</div>
--->
+{% comment %} TODO: Add device photos (slicer, bag closer, iPad holder) {% endcomment %}
 
 ## Overview
 
@@ -49,7 +33,7 @@ The real challenge in this project wasn't making something that works — it was
 
 These constraints forced careful thought about geometry, tolerances, and how a user would actually interact with the device. You have to think about the worst-case grip angle, the weakest plausible force, and what happens when someone uses it differently than you intended.
 
-<!-- TODO: Add CAD screenshots or close-up photos of key design features -->
+{% comment %} TODO: Add CAD screenshots or close-up photos {% endcomment %}
 
 ## What I Learned
 

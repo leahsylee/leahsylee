@@ -6,7 +6,7 @@ description: Robotics and sensor research at the RoboTouch Lab, UIUC.
 nav: true
 nav_order: 3
 display_categories: [research]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/research.md -->
@@ -17,7 +17,7 @@ horizontal: false
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
@@ -39,7 +39,7 @@ horizontal: false
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}

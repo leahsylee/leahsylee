@@ -1,11 +1,10 @@
 ---
 layout: cv
-permalink: /cv/
-title: CV
+permalink: /resume/
+title: resume
 nav: true
 nav_order: 5
-# TODO: Place your resume PDF at assets/pdf/resume.pdf
-cv_pdf: /assets/pdf/resume.pdf
+cv_pdf: /assets/pdf/LeahLee_Resume.pdf
 cv_format: rendercv
 description: Education, experience, and skills.
 toc:

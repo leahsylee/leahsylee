@@ -7,17 +7,7 @@ importance: 3
 category: engineering
 ---
 
-<!-- TODO: Add a photo or video of the ArachnoBot -->
-<!-- Example:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/arachnobot.jpg" title="ArachnoBot at Engineering Open House" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    ArachnoBot on display at UIUC Engineering Open House.
-</div>
--->
+{% comment %} TODO: Add ArachnoBot photo — assets/img/arachnobot.jpg {% endcomment %}
 
 ## Overview
 
@@ -29,20 +19,10 @@ The 4-bar linkage converts simple rotary motion into a walking gait that natural
 
 This approach keeps the control system simple — a single motor drives the linkage — while still producing adaptive locomotion behavior. The tradeoff is that the gait pattern is fixed by the geometry, so the robot can't dynamically adjust its stride length or height, but for the target terrain conditions it works reliably.
 
-<!-- TODO: Add a diagram or CAD image showing the 4-bar linkage mechanism -->
-<!-- Example:
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/arachnobot_linkage.jpg" title="4-bar linkage mechanism" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    4-bar linkage mechanism showing the foot trajectory path.
-</div>
--->
+{% comment %} TODO: Add linkage diagram — assets/img/arachnobot_linkage.jpg {% endcomment %}
 
 ## Demonstration
 
 The robot was presented to over 1,000 visitors at Engineering Open House, where I explained the design rationale and demonstrated the robot's operation on different surface conditions.
 
-<!-- TODO: Add demo photos or a short video clip if available -->
+{% comment %} TODO: Add demo photos or video {% endcomment %}

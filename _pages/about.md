@@ -26,12 +26,11 @@ latest_posts:
   limit: 3
 ---
 
-<!-- TODO: Replace assets/img/prof_pic.jpg with your own headshot photo -->
-
 I'm a Mechanical Engineering undergraduate at the University of Illinois at Urbana-Champaign, expecting to graduate in December 2027.
 
-My work focuses on building, testing, and integrating physical systems — from composite vehicle structures to robotic mechanisms and tactile sensors. I'm most drawn to the problems that come after a design looks good on paper: getting parts to fit, making systems behave consistently, and figuring out why something works in one test but not the next.
+I build and test 
+cal systems such as composite vehicle structures, robotic mechanisms, and tactile sensors. Most of my work starts after a design looks correct on paper: getting parts to fit, making systems behave consistently, and figuring out why something works in one test but not the next.
 
-At [Illini Solar Car](projects/), I lead the design and fabrication of composite fairing door molds using 3D-printed tooling and carbon fiber/fiberglass layup. In two separate research labs, I work on a self-actuated climbing robot at the [Novel Mobile Robots Lab](research/) (contact mechanism design and closed-loop control) and a spherical tactile sensor at the [RoboTouch Lab](research/) (hardware fabrication, calibration, and image reconstruction). A conference paper on the sensor has been submitted to IROS.
+On [Illini Solar Car](projects/), I design and manufacture composite fairing door molds using 3D-printed tooling and carbon fiber/fiberglass layup. I also work on two separate research projects. At the [Novel Mobile Robots Lab](research/), I develop a self-actuated climbing robot, focusing on mechanism design and closed-loop contact control. At the [RoboTouch Lab](research/), I fabricate and calibrate a spherical tactile sensor and built the image reconstruction pipeline; a conference paper is being prepared for submission to IROS.
 
-I'm interested in vehicle systems engineering, mechanical design, and testing — roles where understanding how real hardware behaves matters as much as the design itself.
+I am interested in vehicle systems engineering, mechanical design, and testing — especially roles where diagnosing real hardware behavior is as important as designing it.
