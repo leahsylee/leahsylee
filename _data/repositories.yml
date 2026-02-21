@@ -1,14 +1,7 @@
+# TODO: Add your GitHub username and any repos you want to showcase
 github_users:
-  - torvalds
-  - alshedivat
+  - leahsylee
 
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+github_repos: []

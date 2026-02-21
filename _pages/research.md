@@ -1,15 +1,15 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Hands-on engineering work — from composite vehicle structures to accessible device design.
+title: research
+permalink: /research/
+description: Robotics and sensor research at the RoboTouch Lab, UIUC.
 nav: true
-nav_order: 2
-display_categories: [engineering]
+nav_order: 3
+display_categories: [research]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/research.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   {% for category in page.display_categories %}
@@ -34,11 +34,7 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
-
 {% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
 
