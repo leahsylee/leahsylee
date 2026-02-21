@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://leahsylee.github.io/sitemap.xml
+Sitemap: https://leahsylee.github.io/leahsylee/sitemap.xml

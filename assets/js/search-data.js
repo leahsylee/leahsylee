@@ -7,98 +7,90 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/leahsylee/";
     },
   },{id: "nav-projects",
           title: "projects",
           description: "Hands-on engineering work — from composite vehicle structures to accessible device design.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/leahsylee/projects/";
           },
         },{id: "nav-research",
           title: "research",
           description: "Robotics and sensor research at the RoboTouch Lab, UIUC.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/research/";
+            window.location.href = "/leahsylee/research/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "Conference papers and patents.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/leahsylee/publications/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "Education, experience, and skills.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/leahsylee/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "news-arachnobot-won-1st-place-and-distinguished-robotics-at-asme-engineering-open-house-competing-against-200-exhibits",
+          title: 'ArachnoBot won 1st Place and Distinguished Robotics at ASME Engineering Open House, competing...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-joined-illini-solar-car-mechanical-structures-subteam-working-on-composite-fairing-manufacturing",
-          title: 'Joined Illini Solar Car — Mechanical/Structures subteam, working on composite fairing manufacturing.',
+          section: "News",},{id: "news-joined-the-novel-mobile-robots-lab-working-on-self-actuated-climbing-robot-controls-under-prof-justin-yim",
+          title: 'Joined the Novel Mobile Robots Lab, working on self-actuated climbing robot controls under...',
           description: "",
-          section: "News",},{id: "news-started-undergraduate-research-at-the-robotouch-lab-uiuc-working-on-climbing-robot-controls-and-tactile-sensor-fabrication",
-          title: 'Started undergraduate research at the RoboTouch Lab, UIUC — working on climbing robot...',
-          description: "",
-          section: "News",},{id: "news-patent-filed-for-spherical-gelsight-tactile-sensor-design",
-          title: 'Patent filed for spherical GelSight tactile sensor design.',
+          section: "News",},{id: "news-conference-paper-on-the-spherical-gelsight-tactile-sensor-submitted-to-iros-2026",
+          title: 'Conference paper on the spherical GelSight tactile sensor submitted to IROS 2026.',
           description: "",
           section: "News",},{id: "projects-assistive-technology-devices",
           title: 'Assistive Technology Devices',
-          description: "Designed single-hand-operable assistive devices under strict accessibility, safety, and manufacturing constraints.",
+          description: "Designed and prototyped single-hand-operable assistive devices under strict accessibility, safety, and manufacturing constraints.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/assistive_tech/";
+              window.location.href = "/leahsylee/projects/assistive_tech/";
             },},{id: "projects-self-actuated-climbing-amp-inspection-robot",
           title: 'Self-Actuated Climbing &amp;amp; Inspection Robot',
-          description: "Designed the contact mechanism and implemented closed-loop control for a robot that tracks flat, curved, and inverted surfaces.",
+          description: "Designed contact mechanism and implemented closed-loop control for a surface inspection robot that tracks flat, curved, and inverted surfaces.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/climbing_robot/";
+              window.location.href = "/leahsylee/projects/climbing_robot/";
             },},{id: "projects-spherical-gelsight-tactile-sensor",
           title: 'Spherical GelSight Tactile Sensor',
-          description: "Designed and fabricated a novel spherical tactile sensor with a calibration pipeline and photometric stereo reconstruction. Patent filed.",
+          description: "Developed a vision-based tactile sensor for large-area robotic surface scanning, with custom PCB, multi-part molds, and photometric stereo reconstruction. IROS paper submitted.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/gelsight_sensor/";
+              window.location.href = "/leahsylee/projects/gelsight_sensor/";
             },},{id: "projects-illini-solar-car-composite-structures-amp-vehicle-integration",
           title: 'Illini Solar Car: Composite Structures &amp;amp; Vehicle Integration',
-          description: "Designed and fabricated composite fairing components for a formula-style solar race car, from mold design through final assembly.",
+          description: "Lead design and fabrication of composite fairing components for a formula-style solar race car, from 3D-printed tooling through final assembly.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/solar_car/";
-            },},{id: "projects-terrain-adaptive-spider-robot",
-          title: 'Terrain-Adaptive Spider Robot',
-          description: "Built a walking robot with 4-bar linkage legs for terrain adaptation, demonstrated at Engineering Open House to 1000+ visitors.",
+              window.location.href = "/leahsylee/projects/solar_car/";
+            },},{id: "projects-arachnobot-terrain-adaptive-robot",
+          title: 'ArachnoBot — Terrain-Adaptive Robot',
+          description: "Built a terrain-adaptive robot with 4-bar linkage legs. 1st Place and Distinguished Robotics award at ASME Engineering Open House (200+ exhibits).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/spider_robot/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/leahsylee/projects/spider_robot/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/resume.pdf", "_blank");
+          window.open("/leahsylee/assets/pdf/resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:", "_blank");
+          window.open("mailto:%6C%65%61%68%6C%65%65%32@%69%6C%6C%69%6E%6F%69%73.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/seoyeon-lee123", "_blank");
         },
       },{
         id: 'social-github',
