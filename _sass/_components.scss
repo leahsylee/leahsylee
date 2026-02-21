@@ -152,6 +152,17 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  .project-card-img {
+    width: 180px;
+    min-width: 180px;
+    padding: 1rem;
+
+    img {
+      border-radius: 6px;
+      object-fit: cover;
+    }
+  }
+
   .col {
     padding-bottom: 1rem;
   }
