@@ -2,7 +2,7 @@
 layout: page
 title: "Assistive Technology Devices"
 description: Designed and prototyped single-hand-operable assistive devices under strict accessibility, safety, and manufacturing constraints.
-img: assets/img/assistive_tech_thumb.jpg
+img: assets/img/placeholder_project.jpg
 importance: 2
 category: engineering
 ---

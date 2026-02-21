@@ -2,7 +2,7 @@
 layout: page
 title: "Spherical GelSight Tactile Sensor"
 description: Developed a vision-based tactile sensor for large-area robotic surface scanning, with custom PCB, multi-part molds, and photometric stereo reconstruction. IROS paper submitted.
-img: assets/img/gelsight_thumb.jpg
+img: assets/img/placeholder_project.jpg
 importance: 2
 category: research
 related_publications: true

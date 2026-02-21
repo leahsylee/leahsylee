@@ -2,7 +2,7 @@
 layout: page
 title: "Illini Solar Car: Composite Structures & Vehicle Integration"
 description: Lead design and fabrication of composite fairing components for a formula-style solar race car, from 3D-printed tooling through final assembly.
-img: assets/img/solar_car_thumb.jpg
+img: assets/img/placeholder_project.jpg
 importance: 1
 category: engineering
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: "Self-Actuated Climbing & Inspection Robot"
 description: Designed contact mechanism and implemented closed-loop control for a surface inspection robot that tracks flat, curved, and inverted surfaces.
-img: assets/img/climbing_robot_thumb.jpg
+img: assets/img/placeholder_project.jpg
 importance: 1
 category: research
 ---

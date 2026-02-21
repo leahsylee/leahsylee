@@ -2,7 +2,7 @@
 layout: page
 title: "ArachnoBot — Terrain-Adaptive Robot"
 description: "Built a terrain-adaptive robot with 4-bar linkage legs. 1st Place and Distinguished Robotics award at ASME Engineering Open House (200+ exhibits)."
-img: assets/img/spider_robot_thumb.jpg
+img: assets/img/placeholder_project.jpg
 importance: 3
 category: engineering
 ---
