@@ -28,6 +28,9 @@ latest_posts:
 
 I am a Mechanical Engineering undergraduate at the University of Illinois at Urbana-Champaign, expecting to graduate in December 2027.
 
-I work on physical systems such as composite vehicle structures, robotic mechanisms, and tactile sensors — with an emphasis on testing and iteration. Much of my time is spent debugging real hardware: misalignment during assembly, unstable contact between mechanisms and surfaces, or inconsistent sensor measurements, and then modifying the design or setup until the behavior is repeatable.
+My work focuses on building and evaluating physical systems, including composite vehicle structures, robotic mechanisms, and tactile sensors. I am especially interested in taking a design from concept to working hardware, such as designing parts, fabricating, testing performance, and refining the system based on measured results.
 
-On [Illini Solar Car](projects/), I design and manufacture composite fairing door molds using 3D-printed tooling and carbon fiber/fiberglass layup, and work with other subteams during vehicle assembly and integration. I also work on two research projects. At the [Novel Mobile Robots Lab](research/), I develop a self-actuated climbing inspection robot, focusing on mechanism design, system integration, and testing. At the [RoboTouch Lab](research/), I fabricate and calibrate a spherical tactile sensor and build the image reconstruction pipeline. For this project, a conference paper is being prepared for submission to IROS.
+On [Illini Solar Car](projects/)
+, I design and manufacture composite fairing door molds using 3D-printed tooling and carbon fiber/fiberglass layup, and support vehicle assembly and integration across subteams. I also work on two research projects. At the [Novel Mobile Robots Lab](research/), I develop a self-actuated climbing inspection robot, working on mechanism design, system integration, and experimental testing. At the [RoboTouch Lab](research/), I fabricate and calibrate a spherical tactile sensor and built the image reconstruction pipeline; a conference paper is being prepared for submission to IROS.
+
+I am interested in engineering roles where hardware is be built, tested, and improved, especially in vehicle systems, mechanical design, and validation work.
