@@ -15,11 +15,10 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: mechanical-engineering, portfolio, UIUC, robotics, vehicle-systems, composites, controls
 lang: en
-icon: ⚙️
+icon:
 
-# TODO: Update this URL to your actual GitHub Pages URL (e.g., https://leahsylee.github.io)
 url: https://leahsylee.github.io # the base hostname & protocol for your site
-baseurl: # leave empty for a user site (username.github.io)
+baseurl: /leahsylee # project site at leahsylee.github.io/leahsylee/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button

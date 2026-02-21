@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Illini Solar Car: Composite Structures & Vehicle Integration"
-description: Designed and fabricated composite fairing components for a formula-style solar race car, from mold design through final assembly.
+description: Lead design and fabrication of composite fairing components for a formula-style solar race car, from 3D-printed tooling through final assembly.
 img: assets/img/solar_car_thumb.jpg
 importance: 1
 category: engineering
@@ -23,23 +23,23 @@ category: engineering
 
 Illini Solar Car builds a formula-style solar-powered race vehicle that competes in national events. I work on the Mechanical/Structures subteam, focused on composite manufacturing and vehicle integration.
 
-My responsibilities span the full manufacturing process for the car's fairing (body panels): designing molds, performing composite layups, and finishing surfaces to meet aerodynamic and structural requirements. The work is hands-on and deadline-driven — competition schedules don't move.
+I lead the design and fabrication of fairing door molds using 3D-printed tooling and carbon fiber/fiberglass composite layup. The work spans the full manufacturing process for the car's fairing (body panels): designing molds, performing composite layups, and finishing surfaces to meet aerodynamic and structural requirements. Competition schedules don't move, so the work is deadline-driven.
 
 ## What I Work On
 
-**Mold design and fabrication** for the fairing door. This involves defining the mold geometry to match the aerodynamic surface, selecting materials, and building the mold to hold up through multiple layup cycles.
+**Mold design with 3D-printed tooling.** I design the mold geometry to match the aerodynamic surface, using 3D-printed tooling to create accurate and repeatable mold forms. This approach lets us iterate on mold designs faster than traditional machining while maintaining the surface accuracy needed for aerodynamic panels.
 
-**Composite layups** using carbon fiber and fiberglass. Each layup follows a specific ply schedule and orientation to meet structural targets while keeping weight down. After layup, I run vacuum bagging to consolidate the laminate and remove excess resin.
+**Composite layup and vacuum bagging.** Carbon fiber and fiberglass layups follow specific ply schedules and orientations to meet structural targets while keeping weight down. After layup, I run vacuum bagging to consolidate the laminate and remove excess resin.
 
-**Post-processing** — trimming, sanding, and surface finishing to bring parts to final dimensions and surface quality. Small deviations in the fairing surface affect aerodynamic performance, so the tolerances matter.
+**Post-processing.** Sanding, trimming, and surface finishing bring parts to final dimensions and surface quality. Small deviations in the fairing surface affect aerodynamic performance, so the tolerances matter.
 
-**Integration and assembly.** Getting composite panels to mount correctly onto the vehicle chassis is where most of the real problem-solving happens. I've resolved alignment issues where panel geometry didn't match the frame as expected, requiring iterative adjustment of mounting hardware and panel trim lines.
+**Integration and assembly.** Getting composite panels to mount correctly onto the vehicle chassis is where most of the real problem-solving happens. I coordinate with aero, structures, and melec (mechanical-electrical) teams to ensure proper fit and integration of structural components.
 
 <!-- TODO: Add process photos showing your composite work -->
-<!-- Example layout:
+<!-- Example:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/solar_car_mold.jpg" title="Mold fabrication" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/solar_car_mold.jpg" title="3D-printed mold tooling" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/solar_car_layup.jpg" title="Composite layup" class="img-fluid rounded z-depth-1" %}
@@ -49,16 +49,10 @@ My responsibilities span the full manufacturing process for the car's fairing (b
     </div>
 </div>
 <div class="caption">
-    Left: Mold fabrication. Center: Carbon fiber layup with vacuum bagging. Right: Panel mounted on the vehicle frame.
+    Left: 3D-printed mold tooling. Center: Carbon fiber layup with vacuum bagging. Right: Panel mounted on the vehicle frame.
 </div>
 -->
-
-## Cross-Team Coordination
-
-Solar car development requires constant coordination between subsystems. Panel geometry is driven by aerodynamics, structural loads are defined by the structures team, and mounting locations depend on electrical component placement. Changes in one area cascade into others, so communication across teams is a regular part of the work.
 
 ## Why This Matters
 
 This is hands-on vehicle build experience at a level that most students don't get in a classroom. I've learned how to make manufacturing decisions under real constraints — weight budgets, schedule pressure, material availability, and the gap between a CAD model and a physical part that needs to actually fit on the car.
-
-<!-- TODO: Add any additional images — finished panels, team photos, competition shots -->

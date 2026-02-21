@@ -1,102 +1,129 @@
 cv:
-  name: Leah (Seoyeon) Lee
+  name: Leah Lee
   label: Mechanical Engineering Student
-  email: # TODO: Add your email address
-  location: Urbana, IL
+  email: leahlee2@illinois.edu
+  location: Champaign, IL
   image: ""
   summary: Mechanical Engineering undergraduate at UIUC focused on vehicle systems, mechanical design, controls, and robotics hardware.
 
   social_networks:
-    - network: GitHub
-      username: leahsylee # TODO: Update with your actual GitHub username
     - network: LinkedIn
-      username: # TODO: Add your LinkedIn username
+      username: seoyeon-lee123
+    - network: GitHub
+      username: leahsylee
 
   sections:
     Education:
       - institution: University of Illinois at Urbana-Champaign
-        location: Urbana, IL
+        location: Champaign, IL
         url: https://mechse.illinois.edu/
         area: Mechanical Engineering
-        studyType: Bachelor of Science
+        studyType: BS
         start_date: 2024-08
-        end_date: 2028-05
+        end_date: 2027-12
+        score: "3.91/4.00"
+        courses: "Design for Manufacturability, Numeric Control of Manufacturing Processes, Thermodynamics, Fluid Dynamics"
         highlights:
-          - "Relevant coursework: Numerical Control of Manufacturing, MATLAB, Simulink, Embedded Systems"
+          - "Expected graduation: December 2027"
 
     Experience:
-      - company: RoboTouch Lab, University of Illinois
-        position: Undergraduate Research Assistant
-        location: Urbana, IL
-        start_date: # TODO: Add start date (e.g., 2025-01)
+      - company: Novel Mobile Robots Lab, University of Illinois
+        position: Undergraduate Researcher
+        location: Champaign, IL
+        start_date: 2025-08
         end_date: present
-        summary: Working on two separate projects — a self-actuated climbing robot (system integration and controls) and a spherical GelSight tactile sensor (instrumentation and fabrication). Diagnosed inconsistent climbing behavior through root cause analysis, and developed repeatable fabrication and calibration processes for the tactile sensor.
+        summary: "Advised by Prof. Justin Yim"
         highlights:
-          - "Climbing robot: closed-loop contact control, force/pressure feedback, testing rig design"
-          - "Tactile sensor: mold design, silicone casting, PCB integration, photometric stereo reconstruction"
-          - "Patent filed for spherical sensor design; IROS conference paper in preparation"
+          - Design and build self-actuated surface inspection robot using vision-based tactile sensing
+          - Build test rig and system model to size actuators and validate control performance
+          - Create CAD models and rapid prototypes to achieve stable contact and manufacturable geometry
+          - Develop closed-loop contact module using force/pressure feedback for tracking on flat, curved, and inverted surfaces
 
-      - company: Illini Solar Car
-        position: "Mechanical/Structures — Composite Manufacturing & Integration"
-        location: Urbana, IL
-        start_date: # TODO: Add start date
+      - company: RoboTouch Lab, University of Illinois
+        position: Undergraduate Researcher
+        location: Champaign, IL
+        start_date: 2025-02
         end_date: present
-        summary: Design and fabricate composite fairing components for a formula-style solar race vehicle. Work spans the full manufacturing process from mold design through final surface finishing, coordinating across aerodynamics, structures, and electrical teams.
+        summary: "Advised by Prof. Wenzhen Yuan"
         highlights:
-          - Carbon fiber and fiberglass composite layups, vacuum bagging, trimming, sanding
-          - Solved alignment and mounting issues during vehicle assembly
-          - Worked under strict competition deadlines with cross-functional teams
+          - Develop new vision-based tactile sensor for large-area robotic surface scanning
+          - Fabricate hardware using ESP32S3 and custom PCB, with multi-part molds for repeatable casting
+          - Build image processing pipeline in Python using OpenCV and photometric stereo to reconstruct surface depth
+          - Conference paper submitted to IROS
 
       - company: Somansa
-        position: Research/Engineering Intern
-        location: South Korea
-        start_date: # TODO: Add start date (e.g., 2025-06)
-        end_date: # TODO: Add end date (e.g., 2025-08)
-        summary: Built an internal research tool for Zero Trust Network Access (ZTNA). Developed a RAG system, evaluated LLMs and embedding models, and created automated pipelines to crawl and structure technical documentation for model training.
+        position: Network Engine Team Researcher Intern
+        location: Seoul, South Korea
+        start_date: 2025-06
+        end_date: 2025-08
         highlights:
-          - Built dataset preparation pipeline (PDF/HTML to structured training data)
-          - Evaluated multiple LLMs and embedding models with structured test results
-          - Presented findings to company leadership including CEO
+          - Built RAG system for ZTNA documentation using LLMs, embedding models, and chunked retrieval
+          - Evaluated model performance using prompt-based tests and recorded accuracy comparisons
+          - Developed Python scripts to crawl technical websites and convert PDF/HTML documents into training data
 
-    # TODO: Add any volunteer or extracurricular leadership roles here
-    # Volunteer:
-    #   - company: Organization Name
-    #     position: Role
-    #     ...
+      - company: Foellinger Auditorium
+        position: Event and Lobby Staff
+        location: Champaign, IL
+        start_date: 2025-02
+        end_date: present
+        highlights:
+          - Operate audio-visual systems and manage venue layout for lectures, exams, and performances with 1,300+ attendees
+
+    Volunteer:
+      - company: Engineering Council, Undergraduate Research in Scientific Advancement
+        position: "Vice President (2026), Secretary (2025)"
+        location: Champaign, IL
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - Lead weekly committee meetings and manage logistics, including room reservations, scheduling, and internal documentation
+          - Manage Canvas course site and coordinate directly with faculty and graduate mentors to support participant progress
+          - Compile research posters, summaries, and photos to produce semester-end archive book for program documentation
+
+    Projects:
+      - name: Illini Solar Car
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - Lead design and fabrication of fairing door molds using 3D-printed tooling and carbon fiber/fiberglass composite layup
+          - Manufacture and assemble composite components using sanding, trimming, surface finishing, and vacuum bagging
+          - Coordinate with aero, structures, and melec teams to ensure proper fit and integration of structural components
+
+      - name: "ArachnoBot: ASME 1st Place, Distinguished Robotics (200+ exhibits)"
+        start_date: 2025-01
+        end_date: 2025-05
+        highlights:
+          - Designed and built terrain-adaptive robot for University of Illinois Engineering Open House
+          - Implemented 4-bar linkage mechanism to achieve stable movement across varied surfaces
+          - Presented project to 1,000+ visitors, explaining design and demonstrating robot operation
+
+      - name: Assistive Technology Development Project
+        start_date: 2024-08
+        end_date: 2025-05
+        highlights:
+          - Designed and prototyped assistive devices including vegetable slicer, ziplock bag closer, and iPad holder under one-handed accessibility constraints
+          - Optimized designs for single-print, short print time, lightweight structure, and simple one-hand assembly
+          - Collaborated with ASME team and IATP project manager to meet functional and safety requirements
 
     Skills:
-      - name: Mechanical Design & CAD
-        level: ""
+      - name: CAD and 3D Modeling
+        level: Proficient
         icon: fa-solid fa-drafting-compass
-        keywords: "Fusion 360, Onshape, prototyping, 3D printing, tolerance analysis"
+        keywords: "Fusion 360, AutoCAD, OnShape, NX, SolidWorks, Creo"
 
-      - name: Manufacturing & Composites
-        level: ""
+      - name: Manufacturing and Prototyping
+        level: Proficient
         icon: fa-solid fa-industry
-        keywords: "Carbon fiber layup, fiberglass, vacuum bagging, mold making, silicone casting"
+        keywords: "3D Printing (FDM/SLA), Carbon Fiber Layup, Soldering, Injection Molding, Laser Cutting, Manual Milling, CNC Mill, PCB Fabrication, Rapid Prototyping"
 
-      - name: Controls & Instrumentation
-        level: ""
-        icon: fa-solid fa-microchip
-        keywords: "Closed-loop control, sensor feedback systems, force/pressure sensors, Arduino"
-
-      - name: Programming & Analysis
-        level: ""
+      - name: Programming
+        level: Proficient
         icon: fa-solid fa-code
-        keywords: "Python, MATLAB, Simulink, OpenCV, data analysis"
-
-      - name: Research & Testing
-        level: ""
-        icon: fa-solid fa-flask
-        keywords: "Experimental testing, root cause analysis, calibration, technical documentation"
+        keywords: "Python, Java, MATLAB, Simulink, Embedded Systems"
 
     Languages:
       - name: English
-        summary: "Fluent"
-      - name: Korean
-        summary: "Native"
+        summary: Fluent
 
-    Interests:
-      - name: Engineering Focus Areas
-        icon: fa-solid fa-gear
-        keywords: "Vehicle systems engineering, system integration, mechanical design, controls and testing, robotics hardware, sensor instrumentation, manufacturing and prototyping, root cause analysis"
+      - name: Korean
+        summary: Native

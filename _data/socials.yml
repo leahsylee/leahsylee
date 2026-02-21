@@ -1,10 +1,4 @@
-# TODO: Replace with your actual CV PDF (place the file in assets/pdf/)
 cv_pdf: /assets/pdf/resume.pdf
-# TODO: Add your email address
-email: # your-email@illinois.edu
-# TODO: Add your Google Scholar ID once you have publications indexed
-# scholar_userid:
-# TODO: Add your LinkedIn URL
-# linkedin_username: your-linkedin-username
-# TODO: Add your GitHub username
+email: leahlee2@illinois.edu
+linkedin_username: seoyeon-lee123
 github_username: leahsylee

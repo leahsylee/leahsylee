@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Spherical GelSight Tactile Sensor"
-description: Designed and fabricated a novel spherical tactile sensor with a calibration pipeline and photometric stereo reconstruction. Patent filed.
+description: Developed a vision-based tactile sensor for large-area robotic surface scanning, with custom PCB, multi-part molds, and photometric stereo reconstruction. IROS paper submitted.
 img: assets/img/gelsight_thumb.jpg
 importance: 2
 category: research
@@ -22,15 +22,13 @@ related_publications: true
 
 ## Overview
 
-This project, also at the [RoboTouch Lab](https://publish.illinois.edu/robotouch-lab/), develops a spherical tactile sensor based on the GelSight principle. Unlike conventional flat GelSight sensors that can only sense contact on one face, the spherical geometry enables omnidirectional contact sensing. A patent has been filed for the sensor design, and a conference paper is being prepared for submission to IROS.
+This project at the RoboTouch Lab at UIUC, under Prof. Wenzhen Yuan, develops a new vision-based tactile sensor designed for large-area robotic surface scanning. Unlike conventional flat GelSight sensors that can only sense contact on one face, the spherical geometry enables omnidirectional contact sensing. A conference paper has been submitted to IROS (IEEE/RSJ International Conference on Intelligent Robots and Systems).
 
-## Sensor Design
+## Hardware Design and Fabrication
 
-The sensor consists of a spherical elastomer shell with an embedded camera and structured illumination. When an object presses against the elastomer surface, the resulting deformation is captured by the camera. The key design challenge is that the spherical geometry introduces optical distortion and non-uniform illumination that don't exist in the flat-sensor case.
+**Custom PCB and electronics.** The sensor hardware is built around an ESP32S3 with a custom PCB housing the illumination LEDs and camera module. Fitting the electronics inside the constrained spherical volume while maintaining uniform illumination required careful layout.
 
-**Mold design and silicone casting.** I designed the molds for casting the spherical elastomer membrane. Getting consistent wall thickness and surface finish across the full sphere required multiple iterations of the mold geometry and casting process. Controlling bubble formation and cure uniformity in a closed mold is harder than in open flat molds.
-
-**PCB integration.** The sensor's illumination LEDs and camera module are mounted on a custom PCB inside the sphere. Fitting the electronics inside the constrained volume while maintaining uniform illumination required careful layout.
+**Multi-part mold design and silicone casting.** I designed multi-part molds for repeatable casting of the spherical elastomer membrane. Getting consistent wall thickness and surface finish across the full sphere required multiple iterations of the mold geometry and casting process. Controlling bubble formation and cure uniformity in a closed mold is harder than in open flat molds.
 
 <!-- TODO: Add fabrication process images -->
 <!-- Example:
@@ -42,19 +40,17 @@ The sensor consists of a spherical elastomer shell with an embedded camera and s
         {% include figure.liquid loading="eager" path="assets/img/gelsight_casting.jpg" title="Silicone casting" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gelsight_pcb.jpg" title="PCB integration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gelsight_pcb.jpg" title="Custom PCB" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Mold design for the spherical elastomer. Center: Silicone casting process. Right: PCB with illumination LEDs.
+    Left: Multi-part mold design. Center: Silicone casting process. Right: Custom PCB with ESP32S3 and illumination LEDs.
 </div>
 -->
 
-## Calibration and Reconstruction
+## Image Processing Pipeline
 
-**Calibration procedure.** The spherical geometry means the mapping from pixel coordinates to surface normals varies across the sensor surface. I developed a calibration procedure using known contact geometries to map the illumination response at each point on the sphere.
-
-**Image reconstruction pipeline.** The reconstruction pipeline (Python + OpenCV) uses photometric stereo to estimate surface normals from the captured images, then integrates the normals to recover contact geometry. The spherical case requires handling the curved baseline geometry, which standard flat-sensor pipelines don't account for.
+I built an image processing pipeline in Python using OpenCV and photometric stereo to reconstruct surface depth from the captured images. The spherical geometry introduces optical distortion and non-uniform illumination that standard flat-sensor pipelines don't account for, requiring a calibration procedure specific to the curved baseline.
 
 <!-- TODO: Add reconstruction result images -->
 <!-- Example:
@@ -64,16 +60,15 @@ The sensor consists of a spherical elastomer shell with an embedded camera and s
     </div>
 </div>
 <div class="caption">
-    Example contact geometry reconstruction from the spherical GelSight sensor.
+    Example surface depth reconstruction from the spherical GelSight sensor.
 </div>
 -->
 
 ## Fabrication Repeatability
 
-A significant part of this work was establishing a repeatable fabrication process. Early prototypes had inconsistent elastomer properties and illumination quality. I documented each step of the process — mixing ratios, cure times, demolding procedure, LED alignment — to make the build process reproducible. This documentation forms the basis of the fabrication section in the paper.
+A significant part of this work was establishing a repeatable fabrication process. Early prototypes had inconsistent elastomer properties and illumination quality. I documented each step — mixing ratios, cure times, demolding procedure, LED alignment — to make the build process reproducible.
 
 ## Outcomes
 
-- **Patent filed** for the spherical sensor design
-- **Conference paper** in preparation for IROS (IEEE/RSJ International Conference on Intelligent Robots and Systems)
+- **Conference paper submitted to IROS**
 - Established a documented, repeatable fabrication and calibration process

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-01-15 12:00:00-0600
+date: 2026-02-01 12:00:00-0600
 inline: true
 related_posts: false
 ---
 
-Patent filed for spherical GelSight tactile sensor design.
+Conference paper on the spherical GelSight tactile sensor submitted to IROS 2026.

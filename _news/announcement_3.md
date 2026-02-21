@@ -1,10 +1,8 @@
 ---
 layout: post
-date: 2025-01-15 12:00:00-0600
+date: 2025-05-10 12:00:00-0600
 inline: true
 related_posts: false
 ---
 
-Joined Illini Solar Car — Mechanical/Structures subteam, working on composite fairing manufacturing.
-
-<!-- TODO: Update the date above to match when you actually joined the team -->
+ArachnoBot won **1st Place** and **Distinguished Robotics** at ASME Engineering Open House, competing against 200+ exhibits.

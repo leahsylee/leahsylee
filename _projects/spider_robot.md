@@ -1,27 +1,27 @@
 ---
 layout: page
-title: "Terrain-Adaptive Spider Robot"
-description: Built a walking robot with 4-bar linkage legs for terrain adaptation, demonstrated at Engineering Open House to 1000+ visitors.
+title: "ArachnoBot — Terrain-Adaptive Robot"
+description: "Built a terrain-adaptive robot with 4-bar linkage legs. 1st Place and Distinguished Robotics award at ASME Engineering Open House (200+ exhibits)."
 img: assets/img/spider_robot_thumb.jpg
 importance: 3
 category: engineering
 ---
 
-<!-- TODO: Add a photo or video of the spider robot -->
+<!-- TODO: Add a photo or video of the ArachnoBot -->
 <!-- Example:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/spider_robot.jpg" title="Spider robot at Engineering Open House" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/arachnobot.jpg" title="ArachnoBot at Engineering Open House" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The terrain-adaptive spider robot on display at UIUC Engineering Open House.
+    ArachnoBot on display at UIUC Engineering Open House.
 </div>
 -->
 
 ## Overview
 
-I built a terrain-adaptive walking robot for UIUC's Engineering Open House. The robot uses a 4-bar linkage mechanism for each leg, allowing it to traverse uneven surfaces without complex active control of each joint.
+I designed and built a terrain-adaptive walking robot — ArachnoBot — for the University of Illinois Engineering Open House. The robot uses a 4-bar linkage mechanism for each leg, allowing it to traverse uneven surfaces without complex active control of each joint. It won **1st Place** and the **Distinguished Robotics** award at ASME, competing against 200+ exhibits.
 
 ## Mechanism Design
 
@@ -33,7 +33,7 @@ This approach keeps the control system simple — a single motor drives the link
 <!-- Example:
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/spider_linkage_diagram.jpg" title="4-bar linkage mechanism" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/arachnobot_linkage.jpg" title="4-bar linkage mechanism" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -43,6 +43,6 @@ This approach keeps the control system simple — a single motor drives the link
 
 ## Demonstration
 
-The robot was demonstrated at UIUC's Engineering Open House, where it was shown to over 1,000 visitors. The project served as both a mechanical design exercise and a way to communicate engineering concepts — linkage kinematics, gear ratios, and mechanism design — to a general audience.
+The robot was presented to over 1,000 visitors at Engineering Open House, where I explained the design rationale and demonstrated the robot's operation on different surface conditions.
 
 <!-- TODO: Add demo photos or a short video clip if available -->
