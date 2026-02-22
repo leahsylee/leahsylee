@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Leah (Seoyeon) Lee" # the website title (if blank, full name will be used instead)
+title: Leah Lee # browser tab title
+display_name: "Leah (Seoyeon) Lee" # displayed on the main page heading
 first_name: Leah
 middle_name: Seoyeon
 last_name: Lee
