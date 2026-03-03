@@ -39,4 +39,4 @@ A significant part of this work was establishing a repeatable fabrication proces
 
 ## Paper
 
-<a href="{{ '/assets/pdf/LeahLee_SphericalGelSight_IROS2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Spherical GelSight: A Tactile Sensor for Omnidirectional Contact Sensing (PDF)</a>
+<a href="{{ '/assets/pdf/LeahLee_SphericalGelSight_IROS2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> GelSphere: An Omnidirectional Rolling Vision-Based Tactile Sensor for Online 3D Reconstruction and Normal Force Estimation (PDF)</a>
