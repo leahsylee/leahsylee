@@ -36,3 +36,7 @@ A significant part of this work was establishing a repeatable fabrication proces
 
 - **Conference paper submitted to IROS**
 - Established a documented, repeatable fabrication and calibration process
+
+## Paper
+
+<a href="{{ '/assets/pdf/LeahLee_SphericalGelSight_IROS2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Spherical GelSight: A Tactile Sensor for Omnidirectional Contact Sensing (PDF)</a>
