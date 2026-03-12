@@ -5,6 +5,7 @@ description: Developed a vision-based tactile sensor for large-area robotic surf
 img: assets/img/publication_preview/gelsight_preview.jpg
 importance: 2
 category: research
+redirect: https://leahsylee.github.io/GelSphere
 related_publications: true
 ---
 
@@ -39,4 +40,4 @@ A significant part of this work was establishing a repeatable fabrication proces
 
 ## Paper
 
-<a href="{{ '/assets/pdf/LeahLee_SphericalGelSight_IROS2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> GelSphere: An Omnidirectional Rolling Vision-Based Tactile Sensor for Online 3D Reconstruction and Normal Force Estimation (PDF)</a>
+<a href="{{ '/assets/pdf/LeahLee_GelSphere_IROS2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> GelSphere: An Omnidirectional Rolling Vision-Based Tactile Sensor for Online 3D Reconstruction and Normal Force Estimation (PDF)</a>
